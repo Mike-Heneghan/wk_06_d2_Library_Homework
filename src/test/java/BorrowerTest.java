@@ -19,8 +19,8 @@ public class BorrowerTest {
         emptyLibrary = new Library(50);
         smallLibrary = new Library(5);
         tinyLibrary = new Library(1);
-        book1 = new Book();
-        book2 = new Book();
+        book1 = new Book(Genre.THRILLER);
+        book2 = new Book(Genre.SCI_FI);
     }
 
     @Test
