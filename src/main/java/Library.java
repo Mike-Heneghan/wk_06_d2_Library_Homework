@@ -14,7 +14,10 @@ public class Library {
     }
 
     public void addBook(Book book) {
-        catalogue.add(book);
+        if (catalogue.size() < capacity){
+        catalogue.add(book);}
     }
+
+
 
 }
