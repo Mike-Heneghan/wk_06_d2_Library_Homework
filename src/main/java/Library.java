@@ -18,6 +18,8 @@ public class Library {
         catalogue.add(book);}
     }
 
-
+    public Book lendBook(){
+        return catalogue.remove(0);
+    }
 
 }

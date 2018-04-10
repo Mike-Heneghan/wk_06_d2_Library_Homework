@@ -11,5 +11,7 @@ public class Borrower {
     public int bookCount(){
         return collection.size();
     }
-
+    public void borrowBook(Library library){
+        collection.add(library.lendBook());
+    }
 }
